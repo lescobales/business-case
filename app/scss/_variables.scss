@@ -1,0 +1,19 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$inter:'Inter', sans-serif;
+$red: #981E1E;
+$lightred:#c0acac;
+
+/*Margin  Padding*/
+$margin:20px;
+
+$padding-top:10px;
+$padding-bottom:$padding-top;
+$padding-right:20px;
+$padding-left:$padding-right;
+
+
+/*BREAKPOINTS */
+$breakpoint-xs:500px;
+$breakpoint-xl:1000px;

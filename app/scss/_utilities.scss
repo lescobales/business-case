@@ -1,0 +1,42 @@
+.flexcontainer {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 5px 20px;
+
+    @media screen and (max-width:$breakpoint-xs){
+        width: auto;
+    }
+}
+
+.results{
+    @media (max-width: $breakpoint-xs){
+        display: none;
+    }
+}
+
+ /* Animation pour "forcer à cliquer" */
+ #blink {
+    -webkit-animation: 2s linear infinite condemed_blink_effect; 
+    animation: 1s linear infinite condemed_blink_effect;
+  }
+  @-webkit-keyframes condemed_blink_effect { 
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  @keyframes condemed_blink_effect {
+    
+    100% {
+      visibility: visible;
+      color: var(--red);
+    }
+  }

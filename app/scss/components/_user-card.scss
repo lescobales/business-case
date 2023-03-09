@@ -1,0 +1,52 @@
+.carduser{
+    display: flex;
+    justify-items: center;
+    height: 200px;
+    width: 40%;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    border: solid 2px black;
+    background: linear-gradient(to bottom left, $red, $lightred);
+
+    &:last-child{
+        margin-bottom: 0px;
+    }
+
+    &.left {
+        width: 60%;
+        height: 100%;
+    }
+
+    &.right {
+        width: 40%;
+        height: 100%;
+    }
+
+    &:hover{
+        box-shadow: 0px 0px 5px green;
+    }
+
+    @media screen and (max-width:$breakpoint-xs){
+        display: block;
+        width: auto;
+    }
+}
+
+.avatar{
+    height: 100px;
+    background-position: right;
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+  
+  .avatar#user1{
+    background-image: url("../images/Users/user_1/user.svg");
+    background-position: center;
+  }
+  
+  .avatar#user2{
+    background-image: url("../images/Users/user_2/user.svg");
+    background-position: center;
+  }

@@ -1,0 +1,12 @@
+.listuser {
+    display: flex;
+    text-align: center;
+    padding: 5px 5px;
+    width: 70%;
+
+    @media (max-width: $breakpoint-xs) {
+        width: 100%;
+    }
+  }
+ 
+

@@ -10,7 +10,6 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass ./app/scss/main.scss ./public/css/style.min.css --watch --style compressed"

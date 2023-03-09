@@ -1,0 +1,13 @@
+/* Input search */
+.btn.valid{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../../../public/images/iconesAppli/check-circle.svg");
+    background-size: cover;
+    margin-left: $margin;
+  }
+  
+  .inputvalid{
+    display: flex;
+  }
