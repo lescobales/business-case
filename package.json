@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.3"
+  },
+  "name": "business-case",
+  "version": "1.0.0",
+  "description": "Application d'une gallerie de NFTs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./app/scss/main.scss ./public/css/style.min.css --watch --style compressed"
+  },
+  "author": "Nicolas SERIN",
+  "license": "ISC"
+}

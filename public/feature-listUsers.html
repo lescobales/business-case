@@ -1,0 +1,96 @@
+<!-- Affiche la liste des utilisateurs avec une description (nb collections, type) -->    
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap reboot -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-reboot.min.css" integrity="sha512-IS8Z2ZgFvTz/yLxE6H07ip/Ad+yAGswoD1VliOeC2T4WaPFNPC1TwmQ5zomGS+syaR2oO3aXJGKaHv21Dspx0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts "inter" -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <title>Taty Josy NFTs</title>
+    </head>
+    <body>
+        <header>
+            <!-- NavBar -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="btn not-connected"><span>Accueil</span></a></li>
+                    <li><a href="connection.html">
+                        <img src="./images/iconesAppli/user-solid.svg" alt="userlogo not connected" id="userlogo"><span>Connection</span></a>
+                    </li>
+                    <li><a href="inscription.html" class="btn not-connected"><span>Inscription</span></a></li>
+                    <li><a href="feature-listUsers.html" class="btn not-connected"><span>Liste NFT</span></a></li>
+                    <li><a href=""><img src="./images/logo.png" alt="Logo Taty Josy"></a></li>
+                    <li><a href="" class="btn connected"></a><span>Gallerie</span></li>
+                    <li><a href="" class="btn connected"><span>Compte</span></a></li>
+                    <li><a href="" class="btn connected"><span>Notification</span></a></li>
+                    <li>Date</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Liste des collections</h1>
+            <!-- Search Bar -->
+            <div class="inputsearch">
+                <label for="searchCollection">Recherche d'une collection</label>
+                <div class="inputvalid">
+                    <input type="search" name="search" id="searchcollection">
+                    <a href="" class="btn valid"></a>
+                </div>
+            </div>
+            <hr>
+            <div class="flexcontainer">
+                <!-- Result Serach -->
+                <div class="results">
+                    <h2>Résultats recherche</h2>
+                </div>
+                <!-- List users with card Users -->
+                <div class="listuser">
+                    <h2>Liste des Utilisateurs</h2>
+                    <div class="carduser">
+                        <div class="left">
+                            <p>User_1</p>
+                            <p>Description</p>
+                        </div>
+                        <div class="right">
+                            <div class="avatar" id="user1"></div>
+                        </div>
+                    </div>
+                    <div class="carduser">
+                        <div class="left">
+                            <p>User_2</p>
+                            <p>Description</p>
+                        </div>
+                        <div class="right">
+                            <div class="avatar" id="user2"></div>
+                        </div>
+                    </div>
+                    <div class="carduser">
+                        <div class="left">
+                            <p>User_3</p>
+                            <p>Description</p>
+                        </div>
+                        <div class="right">
+                            <div class="avatar" id="user1"></div>
+                        </div>
+                    </div>
+                    <div class="carduser">
+                        <div class="left">
+                            <p>User_4</p>
+                            <p>Description</p>
+                        </div>
+                        <div class="right">
+                            <div class="avatar" id="user2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <a href="">Taty Josy NFT &copy; tout droit réservé</a>
+        </footer>
+    </body>
+    </html>
