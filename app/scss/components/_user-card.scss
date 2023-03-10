@@ -1,7 +1,7 @@
 .carduser{
     display: inline-block;
     height: 150px;
-    min-width: 200px;
+    min-width: 47%;
     margin-top: 20px;
     margin-right: 10px;
     padding: .1rem;
@@ -20,10 +20,10 @@
         align-items: center;  
         .right{
             .avatar{
-                height: 50px;
-                width: 50px;
-                background-position: center;
-                background-size:cover;
+                height: 60px;
+                width: 60px;
+                background-position: left;
+                background-size:contain;
                 background-repeat: no-repeat;
 
                 &#user1{

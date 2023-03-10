@@ -10,6 +10,11 @@
 
 .results{
   width: 50%;
+
+  #print{
+    height: 450px;
+    border: solid;
+  }
     @media (max-width: $breakpoint-xs){
         display: none;
     }
