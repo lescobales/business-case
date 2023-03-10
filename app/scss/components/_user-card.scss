@@ -1,31 +1,50 @@
 .carduser{
     display: inline-block;
-    height: 200px;
-    width: 40%;
+    height: 150px;
+    min-width: 200px;
     margin-top: 20px;
     margin-right: 10px;
-    padding: 30px;
+    padding: .1rem;
     border-radius: 20px;
-    /* border: solid 2px $red; */
     background: linear-gradient(to bottom left, $red, $lightred);
 
     &:last-child{
         margin-bottom: 0px;
     }
 
-    &.left {
-        width: 60%;
-        height: 100%;
-    }
-
-    &.right {
-        width: 40%;
-        height: 100%;
-    }
-
     &:hover{
         box-shadow: 0px 0px 5px $red;
     }
+
+    .flexcontainer {
+        align-items: center;  
+        .right{
+            .avatar{
+                height: 50px;
+                width: 50px;
+                background-position: center;
+                background-size:cover;
+                background-repeat: no-repeat;
+
+                &#user1{
+                    background-image: url("/img/users/user_1/user.svg");
+                }
+                &#user2{
+                    background-image: url("/img/users/user_2/user.svg");
+                }
+                
+             }
+            }
+        .left{
+            color: black;
+            width: 60%;
+        }
+    
+        @media screen and (max-width:$breakpoint-xs){
+            width: auto;
+        }
+    }
+
 
 
     @media screen and (max-width:$breakpoint-xs){

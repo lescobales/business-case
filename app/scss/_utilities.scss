@@ -1,41 +1,15 @@
 .flexcontainer {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
-    height: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 5px 20px;
-
-    .right{
-        height: 100%;
-         .avatar{
-            width: 50px;
-            background-position: center;
-            background-size:contain;
-            background-repeat: no-repeat;
-
-            &#user1{
-                background-image: url("../images/users/user_1/user.svg");
-                background-position: center;
-            }
-
-            &#user2{
-                background-image: url("../images/users/user_2/user.svg");
-                background-position: center;
-            }
-          }
-        }
-    .left{
-        width: 60%;
-    }
-
-    @media screen and (max-width:$breakpoint-xs){
-        width: auto;
-    }
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 5px 20px;
 }
 
 .results{
+  width: 50%;
     @media (max-width: $breakpoint-xs){
         display: none;
     }
