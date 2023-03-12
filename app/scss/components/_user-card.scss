@@ -1,8 +1,9 @@
 .carduser{
     display: inline-block;
     height: 150px;
-    min-width: 47%;
-    margin-top: 20px;
+    min-width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 10px;
     padding: .1rem;
     border-radius: 20px;
@@ -13,7 +14,7 @@
     }
 
     &:hover{
-        box-shadow: 0px 0px 5px $red;
+        box-shadow: 0px 0px 10px $red;
     }
 
     .flexcontainer {
@@ -48,7 +49,8 @@
 
 
     @media screen and (max-width:$breakpoint-xs){
-        display: block;
-        width: auto;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
     }
 }
