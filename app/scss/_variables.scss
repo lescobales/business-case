@@ -1,6 +1,9 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+/*BOOTSTRAP REBOOT */
+@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
+
 $inter:'Inter', sans-serif;
 $red: #981E1E;
 $lightred:#c0acac;
