@@ -22,8 +22,14 @@
 
  /* Animation pour "forcer à cliquer" */
  #blink {
+
+    font-size: 2rem;
     -webkit-animation: 2s linear infinite condemed_blink_effect; 
     animation: 1s linear infinite condemed_blink_effect;
+
+    @media screen and (max-width:$breakpoint-xs){
+      font-size: 1rem;
+    }
   }
   @-webkit-keyframes condemed_blink_effect { 
     0% {

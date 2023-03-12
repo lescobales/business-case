@@ -6,8 +6,30 @@
     background-image: url("/img/iconesAppli/check-circle.svg");
     background-size: cover;
     margin-left: $margin;
+
+    @media screen and (max-width:$breakpoint-xs) {
+      width: 24px;
+    height: 24px;
+    margin-left: $margin - 10px;
+      
+    }
   }
   
   .inputvalid{
     display: flex;
+    width: fit-content;
+  }
+
+  /*Navbar button  */
+  .btn.red{
+    display: inline-block;
+    background-color: $red;
+    transition:all .3s ease-in-out;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    &:hover{
+      background-color: black;
+      color: $red;
+    }
   }
