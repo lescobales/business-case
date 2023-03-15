@@ -1,8 +1,6 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-/*BOOTSTRAP REBOOT */
-@import "../../node_modules/bootstrap/scss/bootstrap-reboot.scss";
 
 $inter:'Inter', sans-serif;
 $red: #981E1E;
@@ -22,4 +20,7 @@ $breakpoint-xs:500px;
 $breakpoint-xl:1000px;
 
 /*NAVBAR  */
-$nav-height:2rem;
+$nav-height:50px;
+
+// Listuser
+$list-user-height:calc(100vh - 310px);

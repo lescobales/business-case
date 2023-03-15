@@ -8,17 +8,8 @@
   padding: 5px 20px;
 }
 
-.results{
-  width: 50%;
 
-  #print{
-    height: 450px;
-    border: solid;
-  }
-    @media (max-width: $breakpoint-xs){
-        display: none;
-    }
-}
+
 
  /* Animation pour "forcer à cliquer" */
  #blink {
@@ -28,7 +19,7 @@
     animation: 1s linear infinite condemed_blink_effect;
 
     @media screen and (max-width:$breakpoint-xs){
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
   }
   @-webkit-keyframes condemed_blink_effect { 
@@ -47,5 +38,30 @@
     100% {
       visibility: visible;
       color: var(--red);
+    }
+  }
+
+  .accordion{
+    margin-bottom: 20px;
+  }
+
+  .connect-card{
+    text-align: center;
+    padding: 1rem;
+    div{
+      margin-right: 30px;
+      &:last-child{
+        margin-right: 0;
+        div{
+          @media screen and (max-width:$breakpoint-xs){
+            display: block;
+            margin-bottom: 30px;
+            width: 100%;
+          }
+        }
+      }
+    }
+    @media screen and (max-width:$breakpoint-xs){
+      margin-top: 50px;
     }
   }

@@ -1,7 +1,11 @@
 html,body{
     text-align: left;
     font-family: $inter;
+    background: linear-gradient(to bottom left, rgba(152,30,30,.3), rgba(192,172,172,.3));
     color: $red;
+    @media (max-width: $breakpoint-xs) {
+      height: 100%;
+  }
   }
 
   a{
@@ -13,15 +17,20 @@ html,body{
   }
   
   footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
     background-color: $red;
     text-align: center;
+    height: 50px;
   }
-  
-  
   
   main{
     padding: 10px 20px;
-    background: linear-gradient(to bottom left, rgba(152,30,30,.3), rgba(192,172,172,.3));
+    section h3{
+      display: none;
+    }
   }
 
 
@@ -46,6 +55,12 @@ html,body{
 
       &#userlogo{
         padding: $padding-bottom*0.5;
+        @media  screen and (min-width:$breakpoint-xs) {
+          display: none;
+        }
+        @media  screen and (max-width:$breakpoint-xs) {
+          display: inline-block;
+        }
       }
   }
   
@@ -64,14 +79,20 @@ html,body{
     display: inline-block;
     height: inherit;
         a{
-          line-height: $nav-height;
-            #userlogo{
-            @media screen and (min-width:$breakpoint-xl) {
-                display: none;
-            }
+          line-height: calc($nav-height - 6px);
+          
+        }
+        &#eth-euro{
+          font-size: .7rem;
+          color: azure;
+          p{
+            margin-top: 5px;
+            margin-bottom: 5px;
           }
-
-
+          p:last-child{
+            margin-top: 0;
+            margin-bottom: 5px;
+          }
         }
   }
   
