@@ -1,5 +1,8 @@
 .listuser {
-  
+
+    margin-right: 0;
+    margin-left: 0;
+
     .scroll-zone{
       padding-left: 10px;
       padding-top: 10px;
@@ -45,8 +48,14 @@
     height: $list-user-height;
   }
 
-  .results{
+  .collection{
     height: $list-user-height;
+    width: 20%;
+  }
+
+  .nft{
+    height: $list-user-height;
+    width:30%;
   }
 
   .search{
