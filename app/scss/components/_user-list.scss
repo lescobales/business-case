@@ -10,6 +10,10 @@
   .collection{
     height: $list-user-height;
     width: 20%;
+    @media screen and (max-width:$breakpoint-xs){
+      width: 100%;
+ 
+  }
   }
 
   .nft{

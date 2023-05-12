@@ -1,37 +1,76 @@
-<form action="" method="POST" class="connexion" id="inscription">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <div class= "mb-4">
-                    <label for="firstname" class="d-block p-1">Prénom</label>
-                    <input type="text" name="firstname" id="firstname">
-                </div>
-                <div class= "mb-4">
-                    <label for="last-name" class="d-block p-1">Nom</label>
-                    <input type="text" name="last-name" id="last-name">
-                </div>
-                <div class= "mb-4">
-                    <label for="birthday" class="d-block p-1">Date de naissance</label>
-                    <input type="text" name="birthday" id="birthday">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.min.css" rel="stylesheet">
+    <title>Inscription</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1 style="display: none;">Taty Josy NFTs</h1>
+        <!-- NavBar -->
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn red"><span>Accueil</span></a></li>
+                <li><a href="connection.html">
+                    <img src="/img/iconesAppli/user-solid.svg" alt="userlogo not connected" id="userlogo"><span class="btn red">Connexion</span></a>
+                </li>
+                <li><a href="inscription.html" class="btn red"><span>Inscription</span></a></li>
+                <li><a href="feature-search.html" class="btn red"><span>NFT</span></a></li>
+                <li><a href="javascript:history.back()"><img src="/img/logo.png" alt="Logo Taty Josy"></a></li>
+                <li><a href="" class="btn red"><span>Gallerie</span></a></li>
+                <li><a href="" class="btn red"><span>Compte</span></a></li>
+                <li><a href="" class="btn red"><span>Notification</span></a></li>
+                <li id="eth-euro"><p>1 ETH</p> <p>1400€</p></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main>
+        <form action="" method="POST" class="connexion" id="inscription">
+            <div class="container p-0">
+                <div class="row">
+                    <div class="col-12 d-sm-block col-md-6">
+                        <div class= "mb-4">
+                            <label for="firstname" class="d-block p-1">Prénom</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class= "mb-4">
+                            <label for="last-name" class="d-block p-1">Nom</label>
+                            <input type="text" name="last-name" id="last-name">
+                        </div>
+                        <div class= "mb-4">
+                            <label for="birthday" class="d-block p-1">Date de naissance</label>
+                            <input type="text" name="birthday" id="birthday">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class= "mb-4">
+                            <label for="e-mail" class="d-block p-1">E-mail</label>
+                            <input type="text" name="e-mail" id="e-mail">
+                        </div>
+                        <div class= "mb-4">
+                            <label for="mdp" class="d-block p-1">Mot de passe</label>
+                            <input type="password" name="mdp" id="mdp">
+                        </div>
+                        <div class= "mb-4">
+                            <label for="check-mdp" class="d-block p-1">Vérification mot de passe</label>
+                            <input type="password" name="check-mdp" id="check-mdp">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6">
-                <div class= "mb-4">
-                    <label for="e-mail" class="d-block p-1">E-mail</label>
-                    <input type="text" name="e-mail" id="e-mail">
-                </div>
-                <div class= "mb-4">
-                    <label for="mdp" class="d-block p-1">Mot de passe</label>
-                    <input type="password" name="mdp" id="mdp">
-                </div>
-                <div class= "mb-4">
-                    <label for="check-mdp" class="d-block p-1">Vérification mot de passe</label>
-                    <input type="password" name="check-mdp" id="check-mdp">
-                </div>
+            <div class="btn red">
+                <p>Inscription</p>
             </div>
-        </div>
-        <div class="btn red">
-            <p>Inscription</p>
-        </div>
-    </div>
-</form>
+        </form>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <a href="">Taty Josy NFTs &copy; tout droit réservé</a>
+    </footer>
+</body>
+</html>
