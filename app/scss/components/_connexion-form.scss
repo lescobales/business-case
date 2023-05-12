@@ -1,15 +1,33 @@
-#connexion{
+.connexion{
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
     max-width: fit-content;
 }
 
-#connexion-form{
+.connexion-form{
     footer{
         position: fixed;
         bottom: 0;
         right: 0;
         left: 0;
+
+       
     }
 }
+
+#inscription{
+    max-width: min-content;
+    .container .row div div{
+    
+        max-width: fit-content;
+        margin: auto;
+        label{
+            max-width: fit-content;
+        }
+    }
+    @media  screen and (min-width:$breakpoint-xs) {
+        max-width: fit-content;
+      }
+    
+} 
