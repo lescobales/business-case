@@ -7,10 +7,6 @@
   margin-left: 0px;
   padding: 5px 20px;
 }
-
-
-
-
  /* Animation pour "forcer à cliquer" */
  #blink {
 
@@ -64,4 +60,43 @@
     @media screen and (max-width:$breakpoint-xs){
       margin-top: 50px;
     }
+  }
+
+  .scroll-zone{
+    padding-left: 10px;
+    padding-top: 10px;
+    height: $list-user-height;
+    width: 100%;
+    //*****    ScrollBar *****//
+    overflow-y: scroll;
+    
+
+  /* width */
+&::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+&::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 0px;
+}
+
+/* Handle */
+&::-webkit-scrollbar-thumb {
+  background: $red;
+  border-radius: 10px;
+}
+  
+
+  @media (max-width: $breakpoint-xs) {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      padding-right: $padding-right;
+      padding-left: $padding-left;
+      padding-bottom: 50px;
+      margin: auto;
+      overflow:hidden;
+  }
   }
