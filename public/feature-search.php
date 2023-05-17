@@ -9,24 +9,7 @@
     <title>Taty Josy NFTs</title>
     </head>
     <body>
-        <header>
-            <!-- NavBar -->
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="btn red"><span>Accueil</span></a></li>
-                    <li><a href="connection.html">
-                        <img src="/img/iconesAppli/user-solid.svg" alt="userlogo not connected" id="userlogo"><span class="btn red">Connection</span></a>
-                    </li>
-                    <li><a href="inscription.html" class="btn red"><span>Inscription</span></a></li>
-                    <li><a href="feature-search.html" class="btn red"><span>NFT</span></a></li>
-                    <li><a href="index.html"><img src="/img/logo.png" alt="Logo Taty Josy"></a></li>
-                    <li><a href="" class="btn red"><span>Gallerie</span></a></li>
-                    <li><a href="" class="btn red"><span>Compte</span></a></li>
-                    <li><a href="" class="btn red"><span>Notification</span></a></li>
-                    <li id="eth-euro"><p>1 ETH</p> <p>1400€</p></li>
-                </ul>
-            </nav>
-        </header>
+        <?php include('header.php');?>
         <main>
             <div class="search">
                 <h1>Recherche</h1>
@@ -264,10 +247,7 @@
                 </div>
             </div>
         </main>
-        <!-- Footer -->
-        <footer>
-            <a href="">Taty Josy NFT &copy; tout droit réservé</a>
-        </footer>
+        <?php include('footer.php'); ?>
 
         <script src="search.js"></script>
     </body>
