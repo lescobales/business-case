@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.min.css" rel="stylesheet">
-    <title>Taty Josy NFTs</title>
-</head>
+<?php include('head.php'); ?>
 <body>
     <?php include('header.php');?>
     <!-- MAIN -->
     <main>
         <!-- Call To Action -->
-        <p><a href="feature-search.html" id="blink">Liste des NFTs disponibles</a></p>
+        <p><a href="feature-search.php" id="blink">Liste des NFTs disponibles</a></p>
         <!-- Section Présentation Entreprise-->
         <section title="Présentation de l'entreprise" id="entreprise" class="bg-light">
             <h3>Présentation de l'entreprise</h3>

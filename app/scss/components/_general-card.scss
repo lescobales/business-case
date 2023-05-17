@@ -1,0 +1,20 @@
+.general-card{
+    height: 80px;
+    width: 45%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 0rem;
+    border-radius: 20px;
+    background: linear-gradient(to bottom left, $red, $lightred);
+    text-align: center;
+    .intitulate{
+        color:black;
+    }
+    .value{
+        color:darkgreen;
+    }
+
+    &:last-child{
+        margin-bottom: 0px;
+    }
+}
